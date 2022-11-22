@@ -1,0 +1,138 @@
+﻿<Window x:Class="TipographWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TipographWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <FlowDocument IsOptimalParagraphEnabled="true" 
+    IsHyphenationEnabled="true" ColumnRuleWidth="5" ColumnRuleBrush="Gray">
+        <Paragraph TextAlignment="Center">
+            <Bold>Artemis 1</Bold>
+        </Paragraph>
+        <Paragraph>
+            <Figure Width="200" HorizontalAnchor="PageCenter">
+                <BlockUIContainer>
+                    <Image Source="artemis\1.jpg" />
+                </BlockUIContainer>
+                <Paragraph Foreground="Orange" FontFamily="Consolas" TextAlignment="Center">
+                    <Italic>Rocket</Italic>    
+                </Paragraph>
+            </Figure>
+        </Paragraph>
+        
+        <Paragraph>
+            <Bold>Artemis 1</Bold>, officially Artemis I,[6] is an ongoing uncrewed Moon-orbiting mission and the first major spaceflight of NASA's Artemis program. It is the first integrated flight test of the Orion spacecraft and Space Launch System rocket.[note 1] Artemis 1 was successfully launched from Kennedy Space Center on November 16, 2022, at 06:47:44 UTC (01:47:44 EST).[7][2][8][9] Its main objective is to test the Orion spacecraft, especially its heat shield,[10] in preparation for subsequent Artemis missions. These missions will seek to reestablish a human presence on the Moon and demonstrate technologies and business approaches needed for future scientific studies, including exploration of Mars.[11] 
+        </Paragraph>
+
+        <Paragraph>
+            Formerly known as Exploration
+            <Italic>Mission-1 (EM-1)</Italic>,[12] the mission was given its current name following the creation of the Artemis program. The mission lifted off from Launch Complex 39B at the Kennedy Space Center aboard the Space Launch System rocket. The Orion spacecraft has been launched on a mission of 25 days.[13] After reaching Earth orbit and performing a trans-lunar injection (burn to the Moon), the mission deployed ten CubeSat satellites. The Orion spacecraft has completed one flyby of the Moon, on November 21, and will enter a distant retrograde orbit for six days with a planned second flyby on November 25.[14] The Orion spacecraft will then return and reenter the Earth's atmosphere with the protection of its heat shield and splash down in the Pacific Ocean. The mission aims to certify Orion and the Space Launch System for crewed flights beginning with Artemis 2.[15] After the Artemis 1 mission, Artemis 2 is scheduled to perform a crewed lunar flyby and Artemis 3 a crewed lunar landing, five decades after the last lunar Apollo mission.
+        </Paragraph>
+
+        <Paragraph TextAlignment="Center">
+            <Bold>Mission profile</Bold>
+        </Paragraph>
+        <Paragraph>
+            <Figure Width="300" HorizontalAnchor="ContentLeft">
+                <BlockUIContainer>
+                    <Image Source="artemis\2.jpg" />
+                </BlockUIContainer>
+                <Paragraph Foreground="CadetBlue" FontFamily="Consolas" TextAlignment="Center">
+                    <Italic>Summary of the Artemis I mission</Italic>
+                </Paragraph>
+            </Figure>
+        </Paragraph>
+        <Paragraph>
+            Artemis 1 was launched on the Block 1 variant of the Space Launch System.[18] The Block 1 vehicle consists of a core stage, two five-segment solid rocket boosters (SRBs) and an upper stage. The core stage uses four RS-25D engines, all of which have previously flown on Space Shuttle missions. The core and boosters together produce 39,000 kN (8,800,000 lbf), or about 4,000 metric tons of thrust at liftoff. The upper stage, known as the Interim Cryogenic Propulsion Stage (ICPS), is based on the Delta Cryogenic Second Stage and is powered by a single RL10B-2 engine on the Artemis 1 mission.[19]
+            </Paragraph>
+            <Paragraph>
+
+                Once in orbit, the ICPS fired its engine to perform a trans-lunar injection (TLI) burn, which placed the Orion spacecraft and ten CubeSats on a trajectory to the Moon. Orion then separated from the ICPS and continued its coast into lunar space. Following Orion separation, the ICPS Stage Adapter deployed ten CubeSats that will conduct scientific research and perform technology demonstrations.[20]
+        </Paragraph>
+        <Paragraph>
+            The Orion
+            <Floater>
+                <Paragraph Foreground="Red">
+                    spacecraft
+                </Paragraph>
+            </Floater> will spend approximately three weeks in space, including six days in a distant retrograde orbit (DRO) around the Moon.[21] It will come within approximatly 130 km (80 mi) of the Lunar surface (closest approach)[22] and its maximum distance from Earth will be 480,494 km (298,565 mi).[1]
+        </Paragraph>
+        <Paragraph TextAlignment="Center">
+            <Bold>Ground testing</Bold>
+        </Paragraph>
+        <Paragraph>The core stage for Artemis 1, built at Michoud Assembly Facility by Boeing, had all four engines attached in November 2019[39] and was declared finished one month later.[40] The core stage left the facility to undergo the Green Run test series at Stennis Space Center, consisting of eight tests of increasing complexity:[41]</Paragraph>
+        <List MarkerStyle="Decimal">
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Modal_testing"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Modal testing
+                    </Hyperlink>
+                    (vibration tests)</Paragraph>
+            </ListItem>
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Avionics"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Avionics
+                    </Hyperlink>
+                    (electronic systems)</Paragraph>
+            </ListItem>
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Fail-safe"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Fail-safe
+                    </Hyperlink>
+                    systems</Paragraph>
+            </ListItem>
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Thrust_vector_control"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Thrust vector control
+                    </Hyperlink>
+                    system (moving and rotating engines)</Paragraph>
+            </ListItem>
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Launch_countdown"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Launch countdown
+                    </Hyperlink>
+                    simulation</Paragraph>
+            </ListItem>
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Wet_dress_rehearsal"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Wet dress rehearsal
+                    </Hyperlink>
+                    , with
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Propellant"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        propellant
+                    </Hyperlink></Paragraph>
+            </ListItem>
+            <ListItem>
+                <Paragraph>
+                    <Hyperlink
+        NavigateUri="https://en.wikipedia.org/wiki/Modal_testing"
+        RequestNavigate="Hyperlink_RequestNavigate">
+                        Static fire
+                    </Hyperlink>
+                     of the engines for eight minutes</Paragraph>
+            </ListItem>
+        </List>
+    </FlowDocument>
+    
+</Window>
